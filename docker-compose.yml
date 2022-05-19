@@ -1,0 +1,10 @@
+version: "3.10"
+services:
+  worker:
+    build: .
+    environment:
+      SESSION: $SESSION
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      HNDLR: $HNDLR
+      SUDO_USERS: $SUDO_USERS
